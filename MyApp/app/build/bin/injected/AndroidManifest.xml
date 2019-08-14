@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.mycompany.myapp"
+	android:versionCode="1"
+	android:versionName="1.0">
+
+	<uses-sdk
+		android:minSdkVersion="14"
+		android:targetSdkVersion="21"/>
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme"
+		android:resizeableActivity="true"
+		android:name="GrobalDatas">
+
+		<activity
+			android:name=".MainActivity"
+			android:label="@string/app_name">
+
+			<intent-filter>
+
+				<action
+					android:name="android.intent.action.MAIN"/>
+
+				<category
+					android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:name=".SubActivity"
+			android:label="@string/app_name">
+
+		</activity>
+
+		<activity
+			android:name=".Sub_02_JobNameActivity"
+			android:label="@string/app_name">
+
+		</activity>
+
+		<activity
+			android:name=".Sub_03_OutputEventsActivity"
+			android:label="@string/app_name">
+
+		</activity>
+
+		<activity
+			android:name=".Sub_04_PlayerCorrelationActivity"
+			android:label="@string/app_name">
+
+		</activity>
+
+		<activity
+			android:name=".Sub_05_OnceaDayEventsActivity"
+			android:label="@string/app_name">
+
+		</activity>
+
+		<activity
+			android:name=".Sub_06_01_Setting_PlayerNum"
+			android:label="@string/app_name">
+
+		</activity>
+
+		<activity
+			android:name=".Sub_06_02_Setting_PlayerName"
+			android:label="@string/app_name">
+
+		</activity>
+
+		<activity
+			android:name=".Sub_06_03_Setting_JobNum"
+			android:label="@string/app_name">
+
+		</activity>
+
+		<activity
+			android:name=".Sub_06_04_Setting_JobName"
+			android:label="@string/app_name">
+
+		</activity>
+
+	</application>
+
+</manifest>
+

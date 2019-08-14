@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/sub_03_top_text"
+			android:textSize="30dp"
+			android:layout_weight="1.0"
+			android:gravity="center"
+			android:text="test"/>
+
+		
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal"
+		android:layout_weight="1.0"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:clipChildren="false"
+		android:clipToPadding="false">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/sub_03_left_button"
+			android:text="L"/>
+
+
+			<FrameLayout
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:id="@+id/sub_03_root_view"
+				android:gravity="center"
+				android:layout_weight="1.0"
+				android:clipChildren="false"
+				android:clipToPadding="false"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/sub_03_right_button"
+			android:text="R"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Button"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Detected Jinro</string>
+	
+    <string name="hello_world">Hello world!</string>
+	<string name="ok">OK</string>
+	<string name="onlyco">Only CO</string>
+	<string name="relationship">Relation</string>
+	<string name="choice_relationship">Choice Relationship</string>
+	<string name="friendly">Friendly</string>
+	<string name="hate">Hate</string>
+	<string name="none">None</string>
+	<string name="bited">Bited</string>
+	<string name="hanged">Hanged</string>
+	<string name="day">Day</string>
+	<string name="noselected">No Selected</string>
+	<string name="noone">No One</string>
+	
+	
+	
+	
+
+	<string name="first_setting">First Setting!!</string>
+	<string name="select_p_num">Select Player Number</string>
+
+	<string name="processing_group">processing_group</string>
+	
+	<string name="log_friendly_01">is friendly for</string>
+	<string name="log_friendly_02"></string>
+	<string name="log_hate_01">is hate for</string>
+	<string name="log_hate_02"></string>
+	<string name="log_none_01">is not so feeling for</string>
+	<string name="log_none_02"></string>
+	<string name="log_CO_01">is CO</string>
+	<string name="log_CO_02"></string>
+	<string name="log_CO_only">is CO!</string>
+	<string name="log_bited_01">is Bited..</string>
+	<string name="log_bited_02"></string>
+	<string name="log_hanged_01">is Hanged..</string>
+	<string name="log_hanged_02"></string>
+	<string name="log_jjudge_white_01">is Judge White for</string>
+	<string name="log_jjudge_white_02"></string>
+	<string name="log_jjudge_black_01">is Judge Black for</string>
+	<string name="log_jjudge_black_02"></string>
+	<string name="log_jjudge_none_01">is Judge cancel for</string>
+	<string name="log_jjudge_none_02"></string>
+	
+	<string name="daytext_01">Day</string>
+	<string name="daytext_02"></string>
+	<string name="daychanged_01">The dawn night... Day</string>
+	<string name="daychanged_02">Start</string>
+	
+    <string name="menu_01_item1">Relation</string>
+    <string name="menu_01_item2">Hate</string>
+    <string name="menu_01_item3">CO</string>
+    <string name="menu_01_item4">JOB Menu</string>
+
+    <string name="menu_02_item1">Restart</string>
+    <string name="menu_02_item2">Setting</string>
+	
+	<string name="sub_06_01_title">Set Player Number</string>
+	<string name="sub_06_02_title">Set Player Names</string>
+	<string name="sub_06_03_title">Set Job Number</string>
+	<string name="sub_06_04_title">Set Job Names</string>
+	
+    <string name="jjdudge_none">Judge NONE</string>
+    <string name="jjdudge_white">Judge WHITE</string>
+    <string name="jjdudge_black">Judge BLACK</string>	
+</resources>

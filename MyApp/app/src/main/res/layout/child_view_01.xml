@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<TableLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+		<TableRow>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="dynamic!"
+				android:id="@+id/child_view_01_text"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:ems="10"
+				android:id="@+id/child_view_01_edittext"/>
+
+			<ImageButton
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/child_view_01_cancelbutton"
+				android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+
+		</TableRow>
+
+	</TableLayout>
+
+</LinearLayout>
+

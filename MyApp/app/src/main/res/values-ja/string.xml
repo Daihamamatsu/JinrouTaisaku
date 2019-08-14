@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">人狼発見アプリ</string>
+
+    <string name="hello_world">Hello world!</string>
+	<string name="ok">OK</string>
+	<string name="onlyco">COのみ</string>
+	<string name="relationship">関係性</string>
+	<string name="choice_relationship">関係性を選択</string>
+	<string name="friendly">友好的</string>
+	<string name="hate">敵対的</string>
+	<string name="none">なし</string>
+	<string name="bited">噛まれた</string>
+	<string name="hanged">吊られた</string>
+	<string name="day">日</string>
+	<string name="noselected">未選択</string>
+	<string name="noone">被害ゼロ</string>
+
+
+
+
+
+	<string name="first_setting">初期設定!!</string>
+	<string name="select_p_num">プレイヤー人数を選択</string>
+
+	<string name="processing_group">processing_group</string>
+
+	<string name="log_friendly_01">は</string>
+	<string name="log_friendly_02">に友好的だ</string>
+	<string name="log_hate_01">は</string>
+	<string name="log_hate_02">に敵対的だ</string>
+	<string name="log_none_01">は</string>
+	<string name="log_none_02">に特に思うところがない</string>
+	<string name="log_CO_01">は</string>
+	<string name="log_CO_02">だとCOした</string>
+	<string name="log_CO_only">はCOした</string>
+	<string name="log_bited_01">は噛まれて死んだ..</string>
+	<string name="log_bited_02"></string>
+	<string name="log_hanged_01">は吊られて死んだ..</string>
+	<string name="log_hanged_02"></string>
+	<string name="log_jjudge_white_01">は</string>
+	<string name="log_jjudge_white_02">を白判定した</string>
+	<string name="log_jjudge_black_01">は</string>
+	<string name="log_jjudge_black_02">を黒判定した</string>
+	<string name="log_jjudge_none_01">は</string>
+	<string name="log_jjudge_none_02">をなんでもないと判定した</string>
+	
+
+	<string name="daytext_01"></string>
+	<string name="daytext_02">日目</string>
+	<string name="daychanged_01">夜が明けた... </string>
+	<string name="daychanged_02">日目の始まり</string>
+
+    <string name="menu_01_item1">関係性</string>
+    <string name="menu_01_item2">敵対的</string>
+    <string name="menu_01_item3">CO</string>
+    <string name="menu_01_item4">職業の仕事</string>
+
+    <string name="menu_02_item1">村を新しく始める</string>
+    <string name="menu_02_item2">人数や名前の設定</string>
+
+	<string name="sub_06_01_title">プレイヤー人数を設定</string>
+	<string name="sub_06_02_title">プレイヤーの名前を設定</string>
+	<string name="sub_06_03_title">職業数を設定</string>
+	<string name="sub_06_04_title">職業名を設定</string>
+
+    <string name="jjdudge_none">判定なし</string>
+    <string name="jjdudge_white">白判定</string>
+    <string name="jjdudge_black">黒判定</string>	
+</resources>

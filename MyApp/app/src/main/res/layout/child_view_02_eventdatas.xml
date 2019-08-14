@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="left">
+
+	<TableLayout
+		android:layout_height="fill_parent"
+		android:layout_width="wrap_content">
+
+		<TableRow>
+
+			<TextView
+				android:layout_width="100dp"
+				android:layout_height="fill_parent"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="dynamic!"
+				android:id="@+id/child_view_02_text_01"/>
+
+			<TextView
+				android:layout_height="fill_parent"
+				android:layout_width="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:id="@+id/child_view_02_text_02"
+				android:layout_weight="1.0"/>
+
+		</TableRow>
+
+	</TableLayout>
+
+</LinearLayout>
+
